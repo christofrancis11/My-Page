@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christo Francis | Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">CF</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item d-flex align-items-center">
+                        <i class="fas fa-moon theme-icon" id="themeIcon"></i>
+                        <div class="theme-toggle" id="themeToggle"></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-particles"></div>
+        <div class="container hero-content">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center animated fadeInUp">
+                    <h1 class="display-4 fw-bold mb-4">Hi, I'm Christo Francis</h1>
+                    <h3 class="mb-4">Web Developer & Designer</h3>
+                    <p class="lead mb-5">Turning ideas into digital reality with creative design and robust development
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary btn-lg">View My Work</a>
+                        <a href="#contact" class="btn btn-outline-light btn-lg">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="main-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 animated fadeInUp delay-1">
+                    <h2 class="section-title">About Me</h2>
+                    <p>I'm a 19-year-old web developer and designer pursuing a B.Voc in Data Science with IoT. With a
+                        passion for creating beautiful, functional websites, I combine my technical knowledge with
+                        creative design skills to deliver engaging digital experiences.</p>
+                    <p>My journey in web development started with a strong foundation in HTML, CSS, and JavaScript,
+                        which I've expanded to include frameworks like Bootstrap for responsive, modern designs.</p>
+                    <div class="mt-5">
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <p class="timeline-date">Present</p>
+                                <h5>B.Voc Data Science with IoT</h5>
+                                <p>Currently studying Data Science with a focus on IoT applications.</p>
+                            </div>
+                            <div class="timeline-item">
+                                <p class="timeline-date">2024</p>
+                                <h5>Freelance Web Developer</h5>
+                                <p>Creating websites for various organizations and clubs.</p>
+                            </div>
+                            <div class="timeline-item">
+                                <p class="timeline-date">2023</p>
+                                <h5>Graphic Designing</h5>
+                                <p>Creating digital graphics and illustrations for various projects.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 offset-lg-1 animated fadeInUp delay-2">
+                    <div class="card border-0">
+                        <div class="card-body">
+                            <h4>Personal Details</h4>
+                            <ul class="list-unstyled contact-info mt-4">
+                                <li class="mb-3"><i class="fas fa-user me-2"></i> Christo Francis</li>
+                                <li class="mb-3"><i class="fas fa-map-marker-alt me-2"></i> Paramel (H), Pariyaram,
+                                    Chalakudy, Thrissur</li>
+                                <li class="mb-3"><i class="fas fa-phone me-2"></i> 7592054723</li>
+                                <li class="mb-3"><i class="fas fa-envelope me-2"></i> christofrancisparamel@gmail.com
+                                </li>
+                            </ul>
+                            <div class="mt-4">
+                                <a href="#contact" class="btn btn-primary">Let's Work Together</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="main-section" style="background-color: var(--darker-bg);">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-lg-8 mx-auto animated fadeInUp">
+                    <h2 class="section-title">My Skills</h2>
+                    <p class="lead">I specialize in web development and design with expertise in various technologies
+                    </p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <!-- Web Technologies -->
+                <div class="col-md-4 col-sm-6 animated fadeInUp delay-1">
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <i class="fab fa-html5"></i>
+                        </div>
+                        <h4>HTML5</h4>
+                        <p>Creating structured, semantic markup for modern web applications.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 animated fadeInUp delay-1">
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <i class="fab fa-css3-alt"></i>
+                        </div>
+                        <h4>CSS3</h4>
+                        <p>Styling websites with advanced CSS techniques for responsive designs.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 animated fadeInUp delay-1">
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <i class="fab fa-js"></i>
+                        </div>
+                        <h4>JavaScript</h4>
+                        <p>Building interactive web applications with vanilla JavaScript.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 animated fadeInUp delay-2">
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <i class="fab fa-bootstrap"></i>
+                        </div>
+                        <h4>Bootstrap</h4>
+                        <p>Creating responsive, mobile-first designs using Bootstrap framework.</p>
+                    </div>
+                </div>
+                
+                <!-- Programming Languages -->
+                <div class="col-md-4 col-sm-6 animated fadeInUp delay-2">
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <i class="fab fa-python"></i>
+                        </div>
+                        <h4>Python</h4>
+                        <p>Developing applications and data analysis solutions using Python.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 animated fadeInUp delay-2">
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h4>C</h4>
+                        <p>Building efficient programs and understanding system-level programming.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 animated fadeInUp delay-3">
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h4>MySQL</h4>
+                        <p>Database design, management and querying for web applications.</p>
+                    </div>
+                </div>
+                
+                <!-- Design Skills -->
+                <div class="col-md-4 col-sm-6 animated fadeInUp delay-3">
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/640px-Adobe_Photoshop_CC_icon.svg.png" alt="Photoshop Icon" style="width: 48px; height: 48px;">
+                        </div>
+                        <h4>Adobe Photoshop</h4>
+                        <p>Photo editing and graphic design for web and print media.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 animated fadeInUp delay-3">
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Adobe_Illustrator_CC_icon.svg/1200px-Adobe_Illustrator_CC_icon.svg.png" alt="Photoshop Icon" style="width: 48px; height: 48px;">
+                        </div>
+                        <h4>Adobe Illustrator</h4>
+                        <p>Creating vector graphics and illustrations for various applications.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="main-section">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-lg-8 mx-auto animated fadeInUp">
+                    <h2 class="section-title">My Projects</h2>
+                    <p class="lead">Here are some of the websites I've developed for various organizations</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 animated fadeInUp delay-1">
+                    <div class="card h-100">
+                        <img src="/api/placeholder/600/400" alt="YourCV Website" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">YourCV</h5>
+                            <p class="card-text">A responsive CV builder website that helps users create professional
+                                resumes easily.</p>
+                            <div class="mt-3">
+                                <span class="badge bg-primary me-1">HTML5</span>
+                                <span class="badge bg-primary me-1">CSS3</span>
+                                <span class="badge bg-primary me-1">JavaScript</span>
+                                <span class="badge bg-primary">Bootstrap</span>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-transparent border-0">
+                            <a href="https://christofrancis11.github.io/YourCV/" target="_blank"
+                                class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 animated fadeInUp delay-2">
+                    <div class="card h-100">
+                        <img src="/api/placeholder/600/400" alt="Kottaka Film Club Website" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Kottaka Film Club</h5>
+                            <p class="card-text">Official website for Kottaka Film Club showcasing their events,
+                                members, and activities.</p>
+                            <div class="mt-3">
+                                <span class="badge bg-primary me-1">HTML5</span>
+                                <span class="badge bg-primary me-1">CSS3</span>
+                                <span class="badge bg-primary me-1">JavaScript</span>
+                                <span class="badge bg-primary">Bootstrap</span>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-transparent border-0">
+                            <a href="https://christofrancis11.github.io/Kottaka/" target="_blank"
+                                class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 animated fadeInUp delay-3">
+                    <div class="card h-100">
+                        <img src="/api/placeholder/600/400" alt="Puthur Green City Website" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Puthur Green City</h5>
+                            <p class="card-text">Website for Puthur Green City initiative featuring environmental
+                                projects and community activities.</p>
+                            <div class="mt-3">
+                                <span class="badge bg-primary me-1">HTML5</span>
+                                <span class="badge bg-primary me-1">CSS3</span>
+                                <span class="badge bg-primary me-1">JavaScript</span>
+                                <span class="badge bg-primary">Bootstrap</span>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-transparent border-0">
+                            <a href="https://christofrancis11.github.io/PuthurGreenCity/" target="_blank"
+                                class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="main-section" style="background-color: var(--darker-bg);">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 animated fadeInUp delay-1">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <p class="mb-4">Feel free to reach out if you have a project in mind or just want to connect. I'm
+                        always open to discussing new projects, creative ideas or opportunities to be part of your
+                        vision.</p>
+                    <ul class="list-unstyled contact-info mb-5">
+                        <li class="mb-3"><i class="fas fa-map-marker-alt me-2"></i> Paramel (H), Pariyaram, Chalakudy,
+                            Thrissur</li>
+                        <li class="mb-3"><i class="fas fa-phone me-2"></i> 7592054723</li>
+                        <li class="mb-3"><i class="fas fa-envelope me-2"></i> christofrancisparamel@gmail.com</li>
+                    </ul>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/christo.paramel" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://x.com/christos1129" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/_christo.francis_/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/christofrancis/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/christofrancis11" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-6 animated fadeInUp delay-2">
+                    <div class="card">
+                        <div class="card-body p-4">
+                            <h4 class="mb-4">Send Me a Message</h4>
+                            <form>
+                                <div class="mb-3">
+                                    <input type="text" class="form-control" placeholder="Your Name" required>
+                                </div>
+                                <div class="mb-3">
+                                    <input type="email" class="form-control" placeholder="Your Email" required>
+                                </div>
+                                <div class="mb-3">
+                                    <input type="text" class="form-control" placeholder="Subject">
+                                </div>
+                                <div class="mb-3">
+                                    <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="container">
+            <p>&copy; 2025 Christo Francis. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <!-- Particles JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script>
+        // Initialize theme
+        document.addEventListener("DOMContentLoaded", function () {
+            const themeToggle = document.getElementById('themeToggle');
+            const themeIcon = document.getElementById('themeIcon');
+            const htmlElement = document.documentElement;
+            
+            // Function to update theme icon
+            function updateThemeIcon(theme) {
+                if (theme === 'light') {
+                    themeIcon.classList.remove('fa-moon');
+                    themeIcon.classList.add('fa-sun');
+                } else {
+                    themeIcon.classList.remove('fa-sun');
+                    themeIcon.classList.add('fa-moon');
+                }
+            }
+            
+            // Check for saved theme preference or use default
+            const savedTheme = localStorage.getItem('theme') || 'dark';
+            htmlElement.setAttribute('data-theme', savedTheme);
+            updateThemeIcon(savedTheme);
+            
+            // Theme toggle functionality
+            themeToggle.addEventListener('click', () => {
+                const currentTheme = htmlElement.getAttribute('data-theme');
+                const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+                
+                htmlElement.setAttribute('data-theme', newTheme);
+                localStorage.setItem('theme', newTheme);
+                updateThemeIcon(newTheme);
+                
+                // Reinitialize particles when theme changes
+                if (typeof particlesJS !== 'undefined') {
+                    const particleColor = newTheme === 'light' ? '#333333' : '#ffffff';
+                    initializeParticles(particleColor);
+                }
+            });
+            
+            // Smooth scrolling for anchor links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+
+                    const targetId = this.getAttribute('href');
+                    const targetElement = document.querySelector(targetId);
+
+                    if (targetElement) {
+                        window.scrollTo({
+                            top: targetElement.offsetTop - 70,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+
+            // Function to initialize particles
+            function initializeParticles(color) {
+                particlesJS("home", {
+                    particles: {
+                        number: {
+                            value: 80,
+                            density: {
+                                enable: true,
+                                value_area: 800
+                            }
+                        },
+                        color: {
+                            value: color
+                        },
+                        shape: {
+                            type: "circle",
+                            stroke: {
+                                width: 0,
+                                color: "#000000"
+                            },
+                        },
+                        opacity: {
+                            value: 0.3,
+                            random: false,
+                        },
+                        size: {
+                            value: 3,
+                            random: true,
+                        },
+                        line_linked: {
+                            enable: true,
+                            distance: 150,
+                            color: color,
+                            opacity: 0.2,
+                            width: 1
+                        },
+                        move: {
+                            enable: true,
+                            speed: 2,
+                            direction: "none",
+                            random: false,
+                            straight: false,
+                            out_mode: "out",
+                            bounce: false,
+                        }
+                    },
+                    interactivity: {
+                        detect_on: "canvas",
+                        events: {
+                            onhover: {
+                                enable: true,
+                                mode: "grab"
+                            },
+                            onclick: {
+                                enable: true,
+                                mode: "push"
+                            },
+                            resize: true
+                        },
+                        modes: {
+                            grab: {
+                                distance: 140,
+                                line_linked: {
+                                    opacity: 1
+                                }
+                            },
+                            push: {
+                                particles_nb: 4
+                            }
+                        }
+                    },
+                    retina_detect: true
+                });
+            }
+
+            // Initialize particles with color based on current theme
+            const currentTheme = htmlElement.getAttribute('data-theme');
+            const particleColor = currentTheme === 'light' ? '#333333' : '#ffffff';
+            
+            // Initialize particles if script is loaded
+            if (typeof particlesJS !== 'undefined') {
+                initializeParticles(particleColor);
+            }
+            
+            // Active navigation link on scroll
+            const sections = document.querySelectorAll('section');
+            const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+            
+            window.addEventListener('scroll', () => {
+                let current = '';
+                
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop;
+                    const sectionHeight = section.clientHeight;
+                    
+                    if (window.pageYOffset >= sectionTop - 100) {
+                        current = section.getAttribute('id');
+                    }
+                });
+                
+                navLinks.forEach(link => {
+                    link.classList.remove('active');
+                    if (link.getAttribute('href') === `#${current}`) {
+                        link.classList.add('active');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
