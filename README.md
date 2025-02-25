@@ -78,10 +78,6 @@ View the live demo: [https://christofrancis11.github.io/portfolio/](https://chri
 - [ ] Add more interactive elements
 - [ ] Implement form submission functionality
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 📞 Contact
 
 - Email: christofrancisparamel@gmail.com
